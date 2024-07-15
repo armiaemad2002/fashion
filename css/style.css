@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.Fashion-store{
+background-color: #806BDC;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10vh;
+
+}
+
+.Fashion-store h2 {
+    color: white;
+    text-align: center;
+}
+.itmes{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.items.itme{
+    flex: 1; /* This makes each div take up an equal amount of space */
+    padding: 20px;
+    border: 1px solid #000;
+    text-align: center;  
+    
+}
+img{
+max-width: 100%;
+height: auto;
+}
+a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+/* shooping */
+.shooping-comtainer{
+    background-color: #D2D2D2;
+    padding-top: 1rem;
+}
+.shooping-comtainer img{
+    padding-bottom: 1rem;
+}
+
+.our-UPcoming-sales {
+    text-align: center;
+    padding: 1rem;
+}
+h3{
+    padding: 1rem;
+}
+table {
+    border-collapse: collapse;
+    width: 90vw;
+    margin: auto;
+    padding: 12px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: #806BDC;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+    unicode-bidi: isolate;
+}
+.About {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    color: #878787;
+}
+
+.About p {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+ul{
+    padding-left: 1.5rem;
+}
+footer{
+    height: 50px;
+    padding-top: 28px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
